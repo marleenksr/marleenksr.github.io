@@ -4,10 +4,10 @@ import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
 const navigation = [
-    {name: "Projects", href: "/projects"},
-    {name: "Portfolio", href: "/portfolio"},
-    {name: "Contact", href: "/contact"},
-    {name: "About", href: "/about"},
+    {name: "projects", href: "/projects"},
+    {name: "portfolio", href: "/portfolio"},
+    {name: "contact", href: "/contact"},
+    {name: "about", href: "/about"},
 ];
 
 export const Navigation: React.FC = () => {
