@@ -13,17 +13,17 @@ export default async function ProjectsPage() {
     };
 
     const top2 = {
+        slug: "dresses",
+        title: "dresses",
+        description: "collection of hand-made dresses",
+        date: "2019",
+    }
+
+    const top3 = {
         slug: "shelf",
         title: "shelf",
         description: "metal shelf",
         date: "2020",
-    }
-
-    const top3 = {
-        slug: "website",
-        title: "website",
-        description: "website for train with emi",
-        date: "2024",
     }
 
     return (
@@ -45,13 +45,7 @@ export default async function ProjectsPage() {
                             <article className="relative w-full h-full p-4 md:p-8">
                                 <div className="flex items-center justify-between gap-2">
                                     <div className="text-xs text-zinc-100">
-                                        {featured.date ? (
-                                            <time dateTime={new Date(featured.date).toISOString()}>
-                                                {Intl.DateTimeFormat(undefined, {
-                                                    dateStyle: "medium",
-                                                }).format(new Date(featured.date))}
-                                            </time>
-                                        ) : (
+                                        {featured.date ? featured.date : (
                                             <span>SOON</span>
                                         )}
                                     </div>
@@ -77,13 +71,7 @@ export default async function ProjectsPage() {
                                 <article className="relative w-full h-full p-4 md:p-8">
                                     <div className="flex items-center justify-between gap-2">
                                         <div className="text-xs text-zinc-100">
-                                            {top2.date ? (
-                                                <time dateTime={new Date(top2.date).toISOString()}>
-                                                    {Intl.DateTimeFormat(undefined, {
-                                                        dateStyle: "medium",
-                                                    }).format(new Date(top2.date))}
-                                                </time>
-                                            ) : (
+                                            {top2.date ? top2.date : (
                                                 <span>SOON</span>
                                             )}
                                         </div>
@@ -110,13 +98,7 @@ export default async function ProjectsPage() {
                                 <article className="relative w-full h-full p-4 md:p-8">
                                     <div className="flex items-center justify-between gap-2">
                                         <div className="text-xs text-zinc-100">
-                                            {top3.date ? (
-                                                <time dateTime={new Date(top3.date).toISOString()}>
-                                                    {Intl.DateTimeFormat(undefined, {
-                                                        dateStyle: "medium",
-                                                    }).format(new Date(top3.date))}
-                                                </time>
-                                            ) : (
+                                            {top3.date ? top3.date : (
                                                 <span>SOON</span>
                                             )}
                                         </div>

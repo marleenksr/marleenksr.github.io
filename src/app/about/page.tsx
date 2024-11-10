@@ -12,15 +12,15 @@ export default function Example() {
                         about
                     </h2>
                     <p className="mt-4 text-zinc-400">
-                        Hi there! I'm Marleen, originally from Hamburg and living in Copenhagen since 2021.
-                        I have a background in Mechatronics (University of Applied Sciences Hamburg) and Electrical Engineering with a focus on Automation and Robot Technology (Technical University of Denmark).
+                        originally from hamburg and living in copenhagen since 2021.
+                        i have a background in mechatronics (university of applied sciences hamburg) and electrical engineering with a focus on automation and robot technology (technical university of denmark).
                         <br/>
-                        Currently working as a Software Engineer in an EV charging management platform scale-up called Monta.
-                        Have spent the last years programming in different languages like Java, Kotlin, C++, PHP, React.
+                        currently working as a software engineer in an ev charging management platform scale-up called monta.
+                        have spent the last years programming in different languages like java, kotlin, c++, php, react.
                         <br/>
-                        Apart from my work, I love doing sports, building things and running around with my camera.
-                        Passionate about anything tech-related, sustainability and plant-based food.
-                        If you have any questions feel free to reach out.
+                        apart from my work, i love doing sports, building things and capturing moments with my camera.
+                        passionate about anything tech-related, sustainability and plant-based food.
+                        if you have any questions feel free to reach out.
                     </p>
                 </div>
             </div>

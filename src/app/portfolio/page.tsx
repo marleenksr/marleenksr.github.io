@@ -1,6 +1,7 @@
 "use client";
 import {Navigation} from "../components/nav";
 import React from "react";
+import Image from "next/image";
 
 const photos = [
     "/portfolio/blue_mountains.jpeg",
@@ -42,10 +43,12 @@ export default function Example() {
                 <div className="grid grid-cols-1 gap-8 mt-8 sm:grid-cols-2 lg:grid-cols-3">
                     {photos.map((photo, index) => (
                         <div key={index} className="relative group">
-                            <img
+                            <Image
                                 src={photo}
-                                alt={`Analogue Photo ${index + 1}`}
+                                alt={`analogue ${index + 1}`}
                                 className="object-cover w-full h-80 rounded-lg shadow-md"
+                                width={400}
+                                height={400}
                             />
                         </div>
                     ))}
