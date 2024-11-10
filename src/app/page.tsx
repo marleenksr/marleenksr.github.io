@@ -30,7 +30,7 @@ export default function Home() {
                                 {item.name}{" "}
                                 <span
                                     className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-                                &#8594;
+                                -&gt;
                                 </span>
                             </h2>
                         </Link>
